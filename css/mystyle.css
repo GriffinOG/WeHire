@@ -1,0 +1,60 @@
+.img-container{
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  float: none;
+}
+  .img-circle{
+    border-radius: 50%;
+    background-image:url('img/defavatar.png');
+  }
+
+  .overflow {
+    height:150px;
+    overflow-y: scroll;
+  }
+
+  #myimg>.editProfile{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 5px;
+    bottom: 5px;
+  }
+
+  .header{
+    margin-bottom: 10px;
+  }
+
+  #header>.h2{
+    display: inline;
+  }
+
+  #header button{
+    display: inline;
+    float: right;
+  }
+
+  .custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+  }
